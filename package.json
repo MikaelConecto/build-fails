@@ -1,0 +1,59 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "aws-amplify": "^1.1.26",
+    "classnames": "^2.2.6",
+    "formik": "^1.5.2",
+    "gatsby": "^2.3.23",
+    "gatsby-image": "^2.0.39",
+    "gatsby-plugin-manifest": "^2.0.29",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-robots-txt": "^1.4.0",
+    "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-plugin-sharp": "^2.0.34",
+    "gatsby-plugin-sitemap": "^2.0.12",
+    "gatsby-source-filesystem": "^2.0.29",
+    "gatsby-transformer-sharp": "^2.1.18",
+    "moment": "^2.24.0",
+    "nanoid": "^2.0.1",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.4.2",
+    "rc-notification": "^3.3.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0",
+    "react-intl": "^2.8.0",
+    "react-places-autocomplete": "^7.2.1",
+    "react-stripe-elements": "^2.0.3",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "dotenv": "^7.0.0",
+    "gatsby-plugin-remove-trailing-slashes": "^2.0.10",
+    "prettier": "^1.17.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build && 0",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
